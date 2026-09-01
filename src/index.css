@@ -76,7 +76,7 @@ body {
 
 .hero-script {
   display: block;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-weight: 500;
   font-size: 0.55em;
@@ -284,13 +284,13 @@ body {
   align-items: center;
   justify-content: center;
   background: rgba(0, 100, 255, 0.1);
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .benefits-card h3 {
   font-size: 18px;
   margin: 0 0 10px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .benefits-card p {
@@ -306,7 +306,7 @@ body {
   gap: 0;
   border-radius: 20px;
   overflow: hidden;
-  background: #0047B3;
+  background: #0047b3;
   color: #fff;
 }
 
@@ -364,7 +364,7 @@ body {
 
 .ingredient-card h3 {
   margin: 0 0 6px;
-  color: #0047B3;
+  color: #0047b3;
   font-size: 18px;
 }
 
@@ -410,7 +410,7 @@ body {
   top: 18px;
   left: 18px;
   background: #fff;
-  color: #0047B3;
+  color: #0047b3;
   font-weight: 800;
   font-size: 18px;
   width: 96px;
@@ -445,7 +445,7 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #0047B3;
+  background: #0047b3;
   color: #fff;
   display: inline-flex;
   align-items: center;
@@ -470,7 +470,7 @@ body {
 }
 
 .feature-pill strong {
-  color: #0047B3;
+  color: #0047b3;
   font-size: 14px;
 }
 
@@ -555,7 +555,7 @@ body {
 }
 
 .facts-table th {
-  background: #0047B3;
+  background: #0047b3;
   color: #fff;
   font-weight: 700;
 }
@@ -603,7 +603,7 @@ body {
 }
 
 .review-card--score {
-  background: #0047B3;
+  background: #0047b3;
   color: #fff;
   text-align: center;
 }
@@ -622,7 +622,7 @@ body {
 
 .review-card h3 {
   margin: 0 0 10px;
-  color: #0047B3;
+  color: #0047b3;
   font-size: 18px;
 }
 
@@ -690,7 +690,7 @@ body {
 .page-hero__title {
   font-size: 40px;
   margin: 12px 0 0;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .breadcrumbs,
@@ -711,7 +711,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #0047B3;
+  background: #0047b3;
   color: #fff !important;
   border: none;
   border-radius: 8px;
@@ -728,7 +728,7 @@ body {
 .link-btn {
   background: none;
   border: none;
-  color: #0047B3;
+  color: #0047b3;
   text-decoration: underline;
   cursor: pointer;
   margin-top: 10px;
@@ -742,7 +742,7 @@ body {
   min-width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #0047B3;
+  background: #0047b3;
   color: #fff;
   font-size: 11px;
   font-weight: 700;
@@ -774,7 +774,7 @@ body.cart-open {
   text-align: center;
   font-size: 14px;
   font-weight: 600;
-  color: #0047B3;
+  color: #0047b3;
   text-decoration: none;
 }
 
@@ -857,7 +857,7 @@ body.cart-open {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(145deg, #0047B3 0%, #00AEFF 100%);
+  background: linear-gradient(145deg, #0047b3 0%, #00aeff 100%);
   color: #f3d48a;
 }
 
@@ -877,7 +877,7 @@ body.cart-open {
 .cart-item__name {
   font-weight: 700;
   font-size: 16px;
-  color: #0047B3;
+  color: #0047b3;
   text-decoration: none;
 }
 
@@ -889,7 +889,7 @@ body.cart-open {
 .cart-item__line {
   font-weight: 800;
   font-size: 18px;
-  color: #0047B3;
+  color: #0047b3;
   white-space: nowrap;
 }
 
@@ -928,7 +928,7 @@ body.cart-open {
 .cart-page__continue {
   background: none;
   border: none;
-  color: #0047B3;
+  color: #0047b3;
   text-decoration: underline;
   cursor: pointer;
   padding: 0;
@@ -964,7 +964,7 @@ body.cart-open {
 .cart-page__summary h2 {
   margin: 0 0 16px;
   font-size: 20px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .cart-page__summary .cart-progress {
@@ -1032,7 +1032,7 @@ body.cart-open {
 
 .checkout-form h2 {
   margin: 0 0 4px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .checkout-form label {
@@ -1040,7 +1040,7 @@ body.cart-open {
   flex-direction: column;
   gap: 6px;
   font-weight: 700;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .checkout-form__row {
@@ -1080,7 +1080,7 @@ body.cart-open {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(145deg, #0047B3 0%, #00AEFF 100%);
+  background: linear-gradient(145deg, #0047b3 0%, #00aeff 100%);
   color: #f3d48a;
 }
 
@@ -1101,12 +1101,12 @@ body.cart-open {
 
 .checkout-success h2 {
   margin: 0;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 /* Shop */
 .shop-hero {
-  background: linear-gradient(135deg, #030816 0%, #0047B3 50%, #0064FF 100%);
+  background: linear-gradient(135deg, #030816 0%, #0047b3 50%, #0064ff 100%);
   color: #fff;
   text-align: center;
   padding: 72px 0;
@@ -1149,12 +1149,12 @@ body.cart-open {
 .shop-single__body h2 {
   margin: 8px 0 12px;
   font-size: 34px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .shop-single__body h2 em {
   font-family: Georgia, serif;
-  color: #00AEFF;
+  color: #00aeff;
 }
 
 .shop-single__meta {
@@ -1217,7 +1217,7 @@ body.cart-open {
 }
 
 .product-gallery__thumbs button.is-active {
-  border-color: #0047B3;
+  border-color: #0047b3;
 }
 
 .product-gallery__thumbs img {
@@ -1230,12 +1230,12 @@ body.cart-open {
 .product-buy__title {
   font-size: 36px;
   margin: 0 0 10px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .product-buy__title em {
   font-family: Georgia, serif;
-  color: #00AEFF;
+  color: #00aeff;
 }
 
 .product-buy__price {
@@ -1277,7 +1277,7 @@ body.cart-open {
 .pu-toggle__option--active {
   background: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .pu-toggle__disclaimer {
@@ -1312,8 +1312,8 @@ body.cart-open {
 }
 
 .pu-qty-card--selected {
-  border-color: #0047B3;
-  box-shadow: 0 0 0 1px #0047B3;
+  border-color: #0047b3;
+  box-shadow: 0 0 0 1px #0047b3;
 }
 
 .pu-qty-card__image {
@@ -1347,7 +1347,7 @@ body.cart-open {
 
 .pu-add-to-cart {
   width: 100%;
-  background: #0047B3;
+  background: #0047b3;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -1375,7 +1375,7 @@ body.cart-open {
 .product-accordions summary {
   cursor: pointer;
   font-weight: 700;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .product-extra,
@@ -1387,7 +1387,7 @@ body.cart-open {
 .product-extra h3,
 .comparison-section h3,
 .faq-section h3 {
-  color: #0047B3;
+  color: #0047b3;
   margin-bottom: 14px;
 }
 
@@ -1410,7 +1410,7 @@ body.cart-open {
 }
 
 .comparison-table .yes {
-  color: #00AEFF;
+  color: #00aeff;
   font-weight: 800;
   text-align: center;
 }
@@ -1443,14 +1443,14 @@ body.cart-open {
 
 /* VIP color remap to zenvora + layout polish */
 :root {
-  --vip-primary: #0047B3;
-  --vip-primary-light: #00AEFF;
+  --vip-primary: #0047b3;
+  --vip-primary-light: #00aeff;
   --vip-primary-dark: #030816;
-  --vip-accent: #0047B3;
-  --vip-accent-light: #00AEFF;
-  --vip-accent-lighter: #E0F2FE;
+  --vip-accent: #0047b3;
+  --vip-accent-light: #00aeff;
+  --vip-accent-lighter: #e0f2fe;
   --vip-dark: #030816;
-  --vip-dark-mid: #0047B3;
+  --vip-dark-mid: #0047b3;
 }
 
 .vip-guarantee-card {
@@ -1470,8 +1470,8 @@ body.cart-open {
   height: 56px;
   margin: 0 auto 14px;
   border-radius: 50%;
-  background: #E0F2FE;
-  color: #0047B3;
+  background: #e0f2fe;
+  color: #0047b3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1483,7 +1483,7 @@ body.cart-open {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 8px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .vip-guarantee-card p {
@@ -1525,7 +1525,7 @@ button.vip-join-btn {
   font-size: 30px;
   font-weight: 700;
   margin: 0 0 20px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .cancellation-form-wrapper {
@@ -1541,7 +1541,7 @@ button.vip-join-btn {
   display: block;
   font-weight: 700;
   margin-bottom: 6px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .form-control {
@@ -1555,7 +1555,7 @@ button.vip-join-btn {
 .mailTo {
   color: #fff;
   border-radius: 10px;
-  background: #0047B3;
+  background: #0047b3;
   font-size: 20px;
   border: none;
   width: 100%;
@@ -1566,8 +1566,8 @@ button.vip-join-btn {
 }
 
 .text-success {
-  background: #E0F2FE;
-  color: #0047B3;
+  background: #e0f2fe;
+  color: #0047b3;
   padding: 16px;
   border-radius: 10px;
   margin-top: 16px;
@@ -1602,7 +1602,7 @@ button.vip-join-btn {
 .contact-info__title {
   font-size: 22px;
   font-weight: 800;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .contact-info-box {
@@ -1631,7 +1631,7 @@ button.vip-join-btn {
   flex-direction: column;
   gap: 6px;
   font-weight: 700;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .cancel-form input {
@@ -1643,8 +1643,8 @@ button.vip-join-btn {
 }
 
 .form-success {
-  background: #E0F2FE;
-  color: #0047B3;
+  background: #e0f2fe;
+  color: #0047b3;
   padding: 16px;
   border-radius: 10px;
   margin-top: 16px;
@@ -1652,7 +1652,7 @@ button.vip-join-btn {
 
 .legal-copy h3 {
   margin-top: 28px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 @media (max-width: 1200px) {
@@ -1936,10 +1936,13 @@ button.vip-join-btn {
   text-align: center;
   max-width: 720px;
   margin: 0 auto 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .formula-section__header .section-label {
-  color: #00AEFF;
+  color: #00aeff;
 }
 
 .formula-section__header .main-title {
@@ -1972,7 +1975,9 @@ button.vip-join-btn {
   border: 1px solid rgba(0, 174, 255, 0.18);
   border-radius: 14px;
   padding: 22px 20px;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
 }
 
 .formula-section__card:hover {
@@ -1987,11 +1992,12 @@ button.vip-join-btn {
   width: 32px;
   height: 32px;
   border-radius: 8px;
-  background: linear-gradient(135deg, #0047B3 0%, #00AEFF 100%);
+  background: linear-gradient(135deg, #0047b3 0%, #00aeff 100%);
   color: #fff;
   font-size: 12px;
   font-weight: 800;
   margin-bottom: 14px;
+  margin-right: 10px;
 }
 
 .formula-section__card h3 {
@@ -2050,7 +2056,7 @@ button.vip-join-btn {
   display: block;
   font-size: 22px;
   font-weight: 800;
-  color: #0047B3;
+  color: #0047b3;
   line-height: 1.2;
   margin-bottom: 6px;
 }
@@ -2092,7 +2098,7 @@ button.vip-join-btn {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #00AEFF;
+  color: #00aeff;
   margin: 0 0 8px;
 }
 
@@ -2143,7 +2149,7 @@ button.vip-join-btn {
   padding: 6px 12px;
   border-radius: 999px;
   background: #e0f2fe;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .product-detail-block {
@@ -2154,7 +2160,7 @@ button.vip-join-btn {
 
 .product-detail-block h2 {
   font-size: 28px;
-  color: #0047B3;
+  color: #0047b3;
   margin: 0 0 12px;
 }
 
@@ -2190,7 +2196,7 @@ button.vip-join-btn {
 .dosing-notes__card h3 {
   margin: 0 0 8px;
   font-size: 15px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .dosing-notes__card p {
@@ -2248,7 +2254,7 @@ button.vip-join-btn {
 .facts-blend h3 {
   margin: 0 0 10px;
   font-size: 15px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .facts-blend ul {
@@ -2266,8 +2272,8 @@ button.vip-join-btn {
 }
 
 .facts-blend li::before {
-  content: '• ';
-  color: #00AEFF;
+  content: "• ";
+  color: #00aeff;
 }
 
 .facts-certs {
@@ -2289,7 +2295,7 @@ button.vip-join-btn {
 
 .facts-certs__item strong {
   font-size: 13px;
-  color: #0047B3;
+  color: #0047b3;
 }
 
 .facts-certs__item span {
@@ -2313,4 +2319,3 @@ button.vip-join-btn {
     grid-template-columns: 1fr;
   }
 }
-

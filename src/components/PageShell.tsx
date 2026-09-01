@@ -1,24 +1,49 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
+import { ShippingSection } from './ShippingSection'
 
-type Props = {
+export function PageHero({
+  title,
+  crumbs,
+}: {
   title: string
-  children?: ReactNode
-}
-
-export function PageShell({ title, children }: Props) {
+  crumbs: { label: string; href?: string }[]
+}) {
   return (
-    <section className="page-shell">
+    <section className="page-hero">
       <div className="container">
-        <h1>{title}</h1>
-        {children ?? (
-          <p>
-            This page is coming next. For now, explore the{' '}
-            <Link to="/">home page</Link> or{' '}
-            <Link to="/shop">shop</Link>.
-          </p>
-        )}
+        <nav className="breadcrumbs" aria-label="Breadcrumb">
+          {crumbs.map((crumb, index) => (
+            <span key={`${crumb.label}-${index}`}>
+              {index > 0 && ' / '}
+              {crumb.href ? <Link to={crumb.href}>{crumb.label}</Link> : <span>{crumb.label}</span>}
+            </span>
+          ))}
+        </nav>
+        {title ? <h1 className="page-hero__title">{title}</h1> : null}
       </div>
     </section>
+  )
+}
+
+export function PageShell({
+  title,
+  crumbs,
+  children,
+  showShipping = true,
+}: {
+  title: string
+  crumbs: { label: string; href?: string }[]
+  children: ReactNode
+  showShipping?: boolean
+}) {
+  return (
+    <>
+      <PageHero title={title} crumbs={crumbs} />
+      <div className="page-content">
+        <div className="container">{children}</div>
+      </div>
+      {showShipping && <ShippingSection />}
+    </>
   )
 }

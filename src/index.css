@@ -2074,6 +2074,34 @@ button.vip-join-btn {
   text-align: center;
 }
 
+.shop-single__specs {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.shop-single__specs li {
+  font-size: 14px;
+  color: #475569;
+  padding-left: 18px;
+  position: relative;
+}
+
+.shop-single__specs li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #0047B3;
+  font-weight: 700;
+}
+
+.shop-single__gallery {
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
 @media (max-width: 992px) {
   .formula-section__grid,
   .product-specs__grid {

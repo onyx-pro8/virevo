@@ -1,6 +1,8 @@
 export const SITE = {
   name: 'virevo',
   email: 'DriftmillGo@gmail.com',
+  phone: '(513) 201-3808',
+  phoneTel: '+15132013808',
   company: 'Driftmill Go LLC',
   addressLines: ['740 Playful Meadows Circle NE', 'Rio Rancho, NM 87144'],
   hours: 'Monday through Friday 8am to 8pm and Saturday 9am to 5pm EST',

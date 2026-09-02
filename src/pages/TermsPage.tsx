@@ -32,7 +32,8 @@ export function TermsPage() {
         <h3>SECTION 5 — CONTACT</h3>
         <p>
           For questions about these terms, contact {SITE.company} at{' '}
-          <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or write to{' '}
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>, call{' '}
+          <a href={`tel:${SITE.phoneTel}`}>{SITE.phone}</a>, or write to{' '}
           {SITE.addressLines.join(', ')}.
         </p>
       </article>

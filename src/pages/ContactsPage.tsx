@@ -14,6 +14,10 @@ export function ContactsPage() {
           you have any questions or concerns, please contact our customer service team at{' '}
           <a className="email__line" href={`mailto:${SITE.email}`}>
             {SITE.email}
+          </a>{' '}
+          or call{' '}
+          <a className="phone__line" href={`tel:${SITE.phoneTel}`}>
+            {SITE.phone}
           </a>
           .
         </p>
@@ -27,6 +31,12 @@ export function ContactsPage() {
             <strong>Email:</strong>{' '}
             <a className="email__line" href={`mailto:${SITE.email}`}>
               {SITE.email}
+            </a>
+          </div>
+          <div className="contact-info-box">
+            <strong>Phone:</strong>{' '}
+            <a className="phone__line" href={`tel:${SITE.phoneTel}`}>
+              {SITE.phone}
             </a>
           </div>
           <div className="contact-info-box">

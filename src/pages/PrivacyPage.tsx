@@ -40,7 +40,8 @@ export function PrivacyPage() {
         <h3>Contact Us</h3>
         <p>
           Questions? Email{' '}
-          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. Mailing address:{' '}
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or call{' '}
+          <a href={`tel:${SITE.phoneTel}`}>{SITE.phone}</a>. Mailing address:{' '}
           {SITE.company}, {SITE.addressLines.join(', ')}.
         </p>
       </article>

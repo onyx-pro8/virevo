@@ -25,6 +25,10 @@ export function Footer() {
               {SITE.addressLines[1]}
               <br />
               <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+              <br />
+              <a className="phone__line" href={`tel:${SITE.phoneTel}`}>
+                {SITE.phone}
+              </a>
             </div>
           </div>
 
